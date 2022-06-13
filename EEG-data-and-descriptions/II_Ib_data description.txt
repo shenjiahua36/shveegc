@@ -1,0 +1,21 @@
+II_Ib: This EEG data is slow cortical potentials (SCPs) recorded from an artificially respirated ALS patient
+
+7 recording channels: 
+Channel 1: A1-Cz (10/20 system) (A1 = left mastoid) 
+Channel 2: A2-Cz 
+Channel 3: 2 cm frontal of C3 
+Channel 4: 2 cm parietal of C3 
+Channel 5: vEOG artifact channel to detect vertical eye movements 
+Channel 6: 2 cm frontal of C4 
+Channel 7: 2 cm parietal of C4 
+
+Sampling rate: 256Hz
+Each channel records 1152 samples
+
+
+Data details:
+II_Ib is a 2-class EEG data set and it in total contains 200 EEG trials recorded from 2 sessions: 100 trials from session 1 and 
+100 trials from session 2. Each trial contains 8065 samples, in which the first column codes the class of the trial (i.e.,1/2). 
+The remaining columns contain samples of the 7 EEG channels (8064 in total). In detail, it starts with 1152 samples from
+channel 1 and ends with 1152 samples from channel 7. 
+Additionally, Class 1 contains 100 trials * 8065 samples and Class 2 contains 100 trials * 8065 samples.

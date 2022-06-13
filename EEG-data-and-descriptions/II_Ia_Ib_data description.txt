@@ -1,0 +1,18 @@
+
+II_Ia_Ib: This data set is a mixed one with II_Ia (2-class 268 trials*5377 samples, 6 channels) and II_Ib (2-class 200 trials*8065
+samples, 7 channels). The channel information of II_Ia and II_Ib are introduced in "II_Ia_data_description.txt" and "II_Ib_description",
+respectively. We prefer the readers to thses files for its details.
+
+II_Ia is recorded from a healthy subject while II_Ib is recorded from an artificially respirated ALS patient. Both II_Ia and II_Ib are
+recorded with sampling rate of 256Hz from 2 sessions.
+
+In this data set, II_Ib is kept the class labels and remove EEG recordings from Channel 5 (vEOG channel), and the
+remaining 6912 data points (6 channels *1152 samples) are down-sampled into 5376. Finally, II_Ib is replaced by 200 trials*5377 smaples.
+
+II_Ia_Ib is a 4-class EEG data set obtained by mixing II_Ia and down-sampled II_Ib, which contains 468 EEG trials with 5377
+samples for each trial. Each row is an EEG trial. The first column codes the class of the trial (i.e., 1/2/3/4). The remaining columns
+contain recording EEG data. 
+Additionally, Class 1 contains 135 trials*5377 samples; Class 2 contains 133 trials*5377 samples; Class 3 contains 100 trials* 5377
+samples, and Class 4 contains 100 trials*5377 samples.
+
+

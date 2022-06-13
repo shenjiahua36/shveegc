@@ -1,0 +1,23 @@
+IV_3_s1: This EEG data is hand movements, including left orientation, right orientation, forward and backward
+
+10 MEG channels:
+Channel 1: LC21
+Channel 2: LC22
+Channel 3: LC23
+Channel 4: LC31
+Channel 5: LC32
+Channel 6: LC41
+Channel 7: LC42
+Channel 8: RC41
+Channel 9: ZC01
+Channel 10: ZC02
+
+Sampling rate: 400Hz
+Bandpass filtered between 0.5Hz and 100Hz
+Each channel records 400 samples 
+
+Data details:
+IV_3_s1 is a 4-class EEG data set and it in total contains 160 EEG trials recorded from 4 sessions: 40 trials per session.
+Each trial contains 4001 samples, in which the first column codes the class of the trial (i.e., 1/2/3/4). The remaining columns
+contain samples of the 10 EEG channels. In detail, it starts with 400 samples from channel 1 and ends with 400 samples from channel 10. 
+Class 1 contains 40 trials*4001 samples; Class 2 contains 40 trials*4001 samples; Class 3 contains 40 trials*4001 samples and Class 4 contains 40 trials*4001 samples.

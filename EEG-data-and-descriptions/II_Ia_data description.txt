@@ -1,0 +1,20 @@
+II_Ia: This EEG data is slow cortical potentials (SCPs) recorded from a healthy subject
+
+6 recording channels: 
+Channel 1: A1-Cz (10/20 system) (A1 = left mastoid) 
+Channel 2: A2-Cz 
+Channel 3: 2 cm frontal of C3 
+Channel 4: 2 cm parietal of C3 
+Channel 5: 2 cm frontal of C4 
+Channel 6: 2 cm parietal of C4 
+
+Sampling rate: 256Hz
+Each channel contains 896 samples
+
+
+Data details:
+II_Ia is a 2-class EEG data set and it in total contains 268 EEG trials recorded from 2 sessions: 168 trials from session 1 and
+100 trials from session 2.  Each trial contains 5377 samples, in which the first column codes the class of the trial (i.e.,1/2). 
+The remaining columns contain samples of the 6 EEG channels (5376 in total). In detail, it starts with 896 samples from 
+channel 1 and ends with 896 samples from channel 6. 
+Additionally, Class 1 contains 135 trials * 5377 samples and Class 2 contains 133 trials * 5377 samples.

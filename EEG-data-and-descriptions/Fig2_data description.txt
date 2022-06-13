@@ -1,0 +1,7 @@
+Fig2 data set:
+
+This EEG data set will help you replicate Fig.2 using complete linkage and z-normalization 
+This data are recorded from a healthy subject. He was asked to move a cursor up or down on the screen. During the period, his EEG are recorded.
+The data set contains 8 EEG trials*5376 samples. Each row is an EEG trial. The first four trials belong to Class 1 (cursor up) and the last four trials belong to Class 2 (cursor down).
+First z-normalized these data and then use complete linkage to cluster these z-normalized EEG data with Frechet distance, Dynamic time warping, Hausdorff distance and 
+Euclidean disntance, respectively. All the procedures are programmed with Matlab 2014b.

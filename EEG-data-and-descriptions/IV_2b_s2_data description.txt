@@ -1,0 +1,16 @@
+IV_2b_s2: This EEG data is motor imagery, including imagination of movements of left hant and right hand
+
+3 recording channels: 
+Channel 1: C3 (10/20 system)
+Channel 2: Cz
+Channel 3: C4
+
+Sampling rate: 250Hz
+Bandpass filtered between 0.5Hz and 100Hz
+Each channel records 313 samples. 
+
+Data details:
+IV_2b_s2 is a 2-class EEG data set from 1 non-feedback session, which in total contains 120 EEG trials with 940 samples for each trial. Each row is an EEG trial.
+The first column codes the class of the trial (i.e., 1/2). The remaining columns contain samples of the 3 EEG channels. 
+This starts with 313 samples from channel 1 and ends with 313 samples from channel 3. 
+Class 1 contains 60 trials*940 samples and Class 2 contains 60 trials*940 samples.

@@ -1,0 +1,25 @@
+III_V_s1: This EEG data is mental imagery data with precomputed features
+
+
+8 recording channels: 
+Channel 1: C3 
+Channel 2: Cz
+Channel 3: C4
+Channel 4: CP1 
+Channel 5: CP2
+Channel 6: P3
+Channel 7: Pz
+Channel 8: P4
+
+Sampling rate: 512Hz
+
+The raw EEG potentials were first spatially filtered by means of a surface Laplacian. Then, every 62.5 ms, the power spectral density (PSD) in the band 8-30 Hz
+was estimated over the last second of data with a frequency resolution of 2 Hz for the 8 centro-parietal channels C3, Cz, C4, CP1, CP2, P3, Pz, and P4. 
+As a result, an EEG sample is a 96-dimensional vector (8 channels times 12 frequency components).
+
+
+Data details:
+III_V_s1 is a 3-class EEG PSD data set from 1 session, which in total contains 3488*97 PSD samples. Each row is a trial of EEG PSD data.
+The first column codes the class of the trial (i.e., 1/2/3). The remaining columns contain PSD samples of the 8 EEG channels. 
+This starts with 12 PSD samples from channel 1 and ends with 12 PSD samples from channel 8. 
+Class 1 contains 1440*97 PSD samples and Class 2 contains 928*97 PSD samples, and Class 3 contains 1120*97 PSD samples.
